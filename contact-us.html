@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About us page for Ronnie's Q BBQ Restaurant. Learn more about our history, mission, and team.">
+    <title>Ronnie's Q - BBQ Restaurant</title>
+    <link rel="icon" href="img/minigrillflameicon2.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  	<!-- Scroll to Top Button -->
+<a href="#" class="scroll-to-top" id="scrollToTopBtn">
+	↑
+  </a>
+
+
+    <!-- Header Section -->
+    <header class="header_main">
+        <div class="site-header">
+            <div class="nav_sec">
+                <!-- Logo Section -->
+                <div class="logo_sec">
+                    <a href="index.html" class="nav-brand">
+                        <img class="logo" src="img/Logo.png" alt="Logo">
+                    </a>
+                </div>
+    
+                <!-- Right Section for Order Online Button -->
+				<div class="right_info">
+					<a href="contact-us.html" class="contact_link">
+						<button class="call_in">Contact Us</button>
+					</a>
+				</div>
+			</div>
+            
+            <!-- Navigation Bar below the header -->
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about-us.html" target="_self">About</a></li>
+                    <li><a href="menu.html" target="_self">Menu</a></li>
+                    <li><a href="catering.html" target="_self">Catering - Family Packs</a></li>
+                    <li><a href="contact-us.html" target="_self">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Page Banner Section -->
+    <div class="page-body">
+        <div class="custom-banner">
+            <div class="overlay"></div>
+            <div class="banner-content">
+                <h1>Contact Us</h1>
+                <ul class="site-breadcrumb">
+                    <li><a class="breadcrumbs" href="index.html">Home</a></li>
+                    <li><span class="breadcrumb">></span></li>
+                    <li><span class="breadcrumb">Contact Us</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact_sec">
+        <div class="content">
+          <h2>Get In Touch With Ronnie's Q in Dickson TN</h2>
+          <img src="img/grillflameicon.png" alt="grill flame icon" loading="eager" decoding="async" height="55" width="55" class="icon contact-static-media">
+          <p>
+            At Ronnie's Q, we’re proud to be a local favorite in Dickson, Tennessee, serving up the best hickory-smoked BBQ in Middle Tennessee. Whether you’re passing through or a longtime local, we’re the perfect stop for all your BBQ cravings. Conveniently located in the heart of Dickson, we’re just a short drive away from nearby communities, offering a welcoming atmosphere for all who love slow-cooked, mouthwatering BBQ.
+            <br><br>
+            Our team is dedicated to making each meal delicious, with our signature ribs, pulled pork, brisket, and smoked wings, all prepared fresh daily. We take pride in not just the food, but also the exceptional service and atmosphere we provide to every guest. From dine-in to takeout, or even catering for your special event, Ronnie’s Q is the place to come back to for a satisfying and unforgettable BBQ experience.
+            <br><br>
+            Have questions about our menu, catering options, or bulk orders for your event? We're here to help! Whether you’re planning a family dinner, office party, or celebration, our friendly team can assist you in choosing the perfect spread for your group. Feel free to give us a call, or reach out via the contact form below, and we’ll get back to you quickly!
+          </p>
+        </div>
+
+
+            <!-- Contact Form -->
+            <section class="contact-form-section">
+  <div class="form-content"> <!-- Added the form-content wrapper -->
+    <h2>Contact Us</h2>
+    <p>Have questions or need assistance? Fill out the form below, and we'll get back to you shortly.</p>
+    
+    <!-- Form Container -->
+    <form id="interactiveForm" class="contact-form">
+      <div class="form-step" id="step1">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        <button type="button" class="next-btn" onclick="nextStep(2)">Next</button>
+      </div>
+    
+      <div class="form-step" id="step2" style="display:none;">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+        <button type="button" class="next-btn" onclick="nextStep(3)">Next</button>
+      </div>
+    
+      <div class="form-step" id="step3" style="display:none;">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+        <button type="button" class="next-btn" onclick="nextStep(4)">Next</button>
+      </div>
+    
+      <div class="form-step" id="step4" style="display:none;">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="button" class="next-btn" onclick="submitForm()">Submit</button>
+      </div>
+    </form>
+    
+    <!-- Confirmation Message -->
+    <div id="confirmationMessage" class="confirmation-message" style="display: none;">
+      <h3>Thank you for contacting us!</h3>
+      <p>We have received your message and will get back to you shortly.</p>
+      <button onclick="resetForm()">Close</button>
+    </div>
+  </div>
+</section>
+    </div>
+
+    <!-- Location Section -->
+<section class="loco-section">
+    <div class="location-info">
+      <h2>Ronnie's Q Location & Contact Details:</h2>
+      <div class="location-item">
+        <img src="img/location-icon.webp" alt="Location Icon" class="location-icon"> 
+        <div class="location-text">
+            <strong>Address</strong>
+            <p>
+                <a href="https://www.google.com/maps/place/Ronnie's+Q/@36.0774922,-87.376239,17z/data=!3m1!4b1!4m6!3m5!1s0x8864baa3e29a767f:0x56e9b61a3273df0e!8m2!3d36.0774922!4d-87.376239!16s%2Fg%2F1262k2fsx?entry=ttu&g_ep=EgoyMDI1MDQyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                  300B Henslee Dr<br>
+                  Dickson, TN 37055
+                </a>
+              </p>
+          </div>
+      </div>
+      <div class="location-item">
+        <img src="img/phone-icon.webp" alt="Phone Icon" class="phone-icon">
+        <div class="location-text">
+            <strong>Phone</strong>
+            <p><a href="tel:+16154410012">(615) 441-0012</a></p>
+          </div>
+      </div>
+      <div class="location-item">
+        <img src="img/clock-icon.jpg" alt="Clock Icon" class="clock-icon">
+        <div class="location-text">
+            <strong>Hours</strong>
+            <p>Tuesday – Saturday: 10:30am – 7:00pm<br>Sunday - Monday: Closed</p>
+          </div>
+      </div>
+    </div>
+    <div id="map" class="location-map"></div> <!-- Google Map -->
+  </section>
+
+
+
+
+        <!-- Footer Section -->
+ <footer id="footer">
+	<div class="footer-container">
+	  <div class="footer-left">
+		<a href="index.html">
+			<img src="img/logo.png" alt="Ronnie's Q Logo" class="footer-logo">
+		  </a>
+		<p class="footer-name">Ronnie's Q</p>
+		<p class="footer-address">
+		  <a href="https://www.google.com/maps/place/Ronnie's+Q/@36.0774922,-87.376239,17z/data=!3m1!4b1!4m6!3m5!1s0x8864baa3e29a767f:0x56e9b61a3273df0e!8m2!3d36.0774922!4d-87.376239!16s%2Fg%2F1262k2fsx?entry=ttu&g_ep=EgoyMDI1MDQyMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+			300B Henslee Dr<br>
+            Dickson, TN 37055
+		  </a>
+		</p>
+		<p class="footer-phone">
+		  <a href="tel:+16154410012">(615) 441-0012</a>
+		</p>
+  </div>
+
+	  <div class="footer-center">
+      <p class="footer-hours">
+        Tuesday – Saturday: 10:30am – 7:00pm<br>
+        Sunday - Monday: Closed
+      </p>
+		<nav class="footer-links">
+		  <a href="index.html">Home</a>
+		  <a href="about-us.html">About</a>		  
+		  <a href="menu.html">Menu</a>
+		<br>
+		  <a href="catering.html">Catering - Family Packs</a>	  
+		  <a href="contact-us.html">Contact</a>
+		</nav>
+	  </div>
+	  <div class="footer-right">
+		<div class="social-icons">
+		  <a href="https://www.facebook.com/ronniesqbbq/"><i class="fab fa-facebook-f"></i></a>
+		  <a href="https://x.com/RonniesQBBQ?t=c7xj7SuCQWr6tJX6_m45Bg&s=03"><i class="fab fa-x-twitter"></i></a>
+		</div>
+	  </div>
+	</div>
+
+	<div class="footer-bottom">
+		<hr>
+		<div class="footer-bottom-content">
+		  <span class="footer-signature">LIT</span>
+		  <p>&copy; 2025 Ronnie's Q. All Rights Reserved.</p>
+		</div>
+	  </div>
+
+	</footer>
+
+<script src="js/main.js"></script> 
+</body>
+</html>

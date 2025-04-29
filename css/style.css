@@ -149,7 +149,7 @@ html, body {
 
 .navbar-links {
   display: flex;
-  gap: 8rem;
+  gap: 14rem;
   list-style: none;
   justify-content: space-evenly;
 }

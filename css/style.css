@@ -1488,7 +1488,6 @@ img.icon.menu-static-media {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  margin-bottom: 60px;
 }
 
 .menu-image img {
@@ -1498,7 +1497,7 @@ img.icon.menu-static-media {
   object-fit: cover;
 }
 
-/* Catering Section */
+/* Catering Page Section */
 
 img.icon.catering-static-media {
   display: block;
@@ -1586,7 +1585,6 @@ img.icon.catering-static-media {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  margin-bottom: 60px;
 }
 
 .catering-image img {
@@ -1596,7 +1594,7 @@ img.icon.catering-static-media {
   object-fit: cover;
 }
 
-/* Contact Section */
+/* Contact Page Section */
 img.icon.contact-static-media {
   display: block;
   margin: 20px auto;
@@ -1707,7 +1705,7 @@ img.icon.contact-static-media {
 
 .contact-form-section h2 {
   font-size: 40px;
-  color: #e90b0b;
+  color: #e94e1b;
   margin-bottom: 20px;
   font-weight: 500;
 }

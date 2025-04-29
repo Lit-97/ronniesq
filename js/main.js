@@ -208,7 +208,3 @@ function initMap() {
     title: "Ronnie's Q",
   });
 }
-
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyYdDxvnidws9_YMNqZhH1Pi8x3DlH7RQ&callback=initMap"
-async
-defer

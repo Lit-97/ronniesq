@@ -1287,7 +1287,7 @@ p.bottom {
   background-image: url(../img/white-wall.webp);
   background-size: cover;
   background-position: center;
-  padding: 40px 20px;
+  padding: 40px 80px;
   margin: 0;
   display: flex;
   justify-content: space-between;

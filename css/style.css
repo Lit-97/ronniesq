@@ -1384,7 +1384,7 @@ a.loco-site-button.outline:hover {
 
 /* Mobile adjustments: Stack content vertically */
 @media (max-width: 768px) {
-  .locatioon-section {
+  .location-section {
       flex-direction: column;
       align-items: center;
       padding: 20px;

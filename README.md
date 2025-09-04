@@ -1,6 +1,6 @@
 # Salon Luxe – Next.js Project
 
-This project is a modern redesign of the Salon Luxe website, created to showcase my growth as a web developer. The original Salon Luxe site was my first website project. With this new version, I wanted to highlight my improved skills and create a fully interactive, visually appealing site.
+This project is a responsive static website for Ronnie’s Q BBQ Restaurant, built using HTML, CSS, and JavaScript. The site showcases a classic Southern BBQ restaurant, featuring a menu, contact options, and event catering details in a clean, user-friendly design.
 
 ## Table of contents
 
@@ -14,77 +14,70 @@ This project is a modern redesign of the Salon Luxe website, created to showcase
 
 
 ## Overview
-Salon Luxe is a professional website for a luxury hair salon. I rebuilt this site to demonstrate my growth as a developer and to incorporate advanced features like authentication and an AI chatbot.
+Ronnie’s Q is a static restaurant site designed to capture the warmth and tradition of a home-style BBQ spot. It highlights the menu, catering services, and locations, offering an intuitive user experience.
 
 Key features include:
 
-• Hero section with video background 🎥
+- Responsive design optimally structured for mobile, tablet, and desktop viewports
 
-• Google Sign-In Authentication 🔑
+- Static layout with clear navigation across Home, About, Menu, Catering, and Contact sections
 
-• AI-powered Chatbot integration 🤖
+- Contact forms allowing users to message the restaurant or inquire about events
 
-• Booking forms 🗓️
+- Catering information and event planning call-outs with easy-to-use navigation
 
-• Product & service showcase pages
+- Clean, semantic HTML and modular CSS to enhance readability and maintainability
 
-• Animations and smooth transitions with Framer Motion
+- Cross-browser compatibility ensuring consistent behavior across devices
 
 
 ### Screenshot
 
-![Screenshot of Salon Luxe](./public/scofsite.jpg)
+![Screenshot of Salon Luxe](./img/ronniesqss.jpg)
 
 
 ### Links
 
-- New Site URL: [Salon Luxe (NEW)](https://salonluxelit.vercel.app/)
-- Old Site URL: [Salon Luxe (OLD)](https://lit-97.github.io/hair-salon-website/)
+- Live Site URL: [Ronnie's Q](https://lit-97.github.io/ronniesq/)
 
 
 ## My process
-I started by planning the site structure and designing reusable components for pages like About, Contact, and Products. Then I:
+I began by laying out the site structure in HTML and organizing content sections intuitively, then:
 
-1. Set up a Next.js project with TypeScript.
+1. Constructed responsive layouts using semantic HTML and modular CSS
 
-2. Built reusable React components for sections, cards, buttons, and forms.
+2. Ensured clear and intuitive navigation via a fixed menu bar
 
-3. Integrated Firebase for authentication and data management.
+3. Developed a contact form and event inquiry interface for catering options
 
-4. Added AI chatbot functionality for user interaction.
+4. Styled visual content with CSS, including consistent typography and visuals
 
-5. Optimized images and video backgrounds for a polished visual experience.
+5. Validated cross-browser compatibility and responsiveness
 
-6. Deployed the site to Vercel for production-ready hosting.
+6. Published the site via GitHub Pages for easy access and sharing
 
 
 ### Built with
 
-- Next.js
+- HTML5 (Semantic structure & layout)
 
-- TypeScript
+- CSS3 (Responsive design & styling)
 
-- CSS Modules & Framer Motion (animations)
+- JavaScript (Interactive contact form)
 
-- Firebase (Authentication & Firestore)
-
-- Vercel (Deployment & Hosting)
-
-- AI Chatbot integration 🤖
-
-- High-quality media assets (optimized images & video)
+- GitHub Pages (Hosting & deployment)
 
 ### Growth & Insights 🌱
 
-- Structuring a complex Next.js project with multiple pages and reusable components
+- Building a clean, interactive static website without frameworks
 
-- Implementing Google Sign-In authentication with Firebase
+- Crafting responsive layouts for multiple devices using CSS only
 
-- Integrating an AI-powered chatbot for real-time user engagement
+- Handling user contact via front-end forms
 
-- Optimizing video and image assets for web performance
+- Maintaining clean, modular code for readability and ease of updates
 
-- Using Framer Motion to enhance UI with animations and smooth transitions
+- Deploying a static site with GitHub Pages for a live, shareable presence
 
 - Managing a production deployment on Vercel
 

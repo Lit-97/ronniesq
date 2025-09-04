@@ -1,4 +1,4 @@
-# Salon Luxe – Next.js Project
+# Ronnie’s Q – Static HTML/CSS/JS Site
 
 This project is a responsive static website for Ronnie’s Q BBQ Restaurant, built using HTML, CSS, and JavaScript. The site showcases a classic Southern BBQ restaurant, featuring a menu, contact options, and event catering details in a clean, user-friendly design.
 
